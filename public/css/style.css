@@ -1,0 +1,35 @@
+.d-flex{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    text-decoration-line: underline;
+}
+.navbar{
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar > .logo > img{
+    width: 150px;
+}
+.navbar > ul{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar > ul > li{
+    padding: 10px;
+    font-size: 20px;
+}
