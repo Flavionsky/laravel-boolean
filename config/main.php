@@ -22,6 +22,10 @@ return
             'text' => 'Camp Gratuito',
         ],
         [
+            'pathId' => 'utenti',
+            'text' => 'Utenti',
+        ],
+        [
             'pathId' => 'iscriviti',
             'text' => 'Candidati Ora',
         ]

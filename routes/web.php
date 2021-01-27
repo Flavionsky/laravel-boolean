@@ -22,3 +22,5 @@ Route::get('/carriere','RoutesController@carriere')->name('carriere');
 Route::get('/lezione-gratuita','RoutesController@lezionegratuita')->name('lezione-gratuita');
 
 Route::get('/iscriviti','RoutesController@iscriviti')->name('iscriviti');
+
+Route::get('/utenti','UtentiController@index')->name('utenti');

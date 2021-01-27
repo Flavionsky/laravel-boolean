@@ -14,7 +14,9 @@
 
         <title>Boolean Careers</title>
     </head>
-    @include('common.header')
     <body>
+         @include('common.header')
+         @section('main')  
+         @show
     </body>
 </html>
