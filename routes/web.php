@@ -24,3 +24,5 @@ Route::get('/lezione-gratuita','RoutesController@lezionegratuita')->name('lezion
 Route::get('/iscriviti','RoutesController@iscriviti')->name('iscriviti');
 
 Route::get('/utenti','UtentiController@index')->name('utenti');
+
+Route::get('/utenti/{id}','UtentiController@show')->name('utenti.show');

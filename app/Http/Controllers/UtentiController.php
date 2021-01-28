@@ -4,14 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Utenti;
+use App\Utente;
 
 class UtentiController extends Controller
 {
     public function index(){
 
-        $users = Utenti::all();
+        $users = Utente::all();
         
     return view('utenti', compact('users'));
+    }
+    public function show($id){
+
+        $user = Utente::find($id);
+
+        return view('utente', compact('user'));
     }
 }

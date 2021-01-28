@@ -16,7 +16,7 @@
             <h4>{{ $utente['last_name'] }}</h4>
             <p>{{ $utente['email'] }}</p>
             <p>{{ $utente['gender'] }}</p>
-            
+            <a href="/utenti/{{$utente['id']}}">Dettaglio Utente</a>
         </li>
         
         @endforeach

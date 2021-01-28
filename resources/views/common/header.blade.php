@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar d-flex">
       <div class="logo">
-        <img src="img/logo.png" alt="">
+        <img src="{{URL::asset('img/logo.png')}}" alt="">
       </div>
       <ul class="d-flex">
         @foreach(config('main.routes') as $route)
