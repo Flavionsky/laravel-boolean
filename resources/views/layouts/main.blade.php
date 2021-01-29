@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
         {{-- Css Style --}}
-        <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
         <title>Boolean Careers</title>
     </head>
